@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.logo img{
+    width:120px;
+
+}
+li{
+    list-style-type:none;
+    font-weight:bold;
+    margin:0 22px;
+    color:white;
+}
+ul li:hover{
+      color:aquamarine;
+}
+
+.wrapper,ul{
+     display:flex;
+    align-items: center;
+     justify-content:space-between;
+     padding:33px;
+}
+header{
+    background-image:url("https://images.pexels.com/photos/2649403/pexels-photo-2649403.jpeg?cs=srgb&dl=pexels-quang-nguyen-vinh-222549-2649403.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size:cover;
+    height:100vh;
+    position:relative;
+    
+}
+.textpage{
+    text-align:center;
+    color:white;
+    position:absolute;
+    left:27rem;
+    top:20rem;
+    index:6px;
+
+}
+.textpage p{
+    font-size:22px;
+    margin:20px 0;}
+.textpage h1{
+          font-size:50px;
+    }
+    .wrapper2{
+        display:flex;
+        align-items:center;
+        justify-content:space-around;
+        flex-wrap:wrap;
+        margin:6rem 3rem 0;
+    }
+.page2{
+    width:440px;
+}
+.imgpage2{
+    width:700px;
+    height:500px;
+
+}
+.imgpage2 img{
+    width:100%;
+}
