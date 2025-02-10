@@ -4,15 +4,52 @@
     box-sizing: border-box;
     font-family: "Poppins", serif;
 }
+.home ul li a{
+  
+    color: white;
+    text-decoration: navajowhite;
+    font-size: 16px;
+    text-transform: capitalize;
+  
+}
+.licons{
+    width:50px;
+    height:50px;
+   
+
+}
+
+
+.licons img{
+      width:100%;
+    
+     
+}
+.lidiv{
+    position:relative;
+   
+}
+.lidiv i{
+    position:absolute;
+      top:18px;
+      left:18px;
+      color:white;
+}
+
+.licons img:hover{
+    display: none;
+}
+
 
 .logo {
     width: 10%;
 }
 
 .logo img {
-    width: 100%;
+    width: 100%;}
 
-}
+ 
+
 
 .home li {
     list-style-type: none;
@@ -28,13 +65,15 @@
 .wrapper {
 
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: space-between;
     /* flex-wrap:wrap; */
-    padding: 33px;
-    position:sticky;
+    padding:0 40px;
+    position:fixed;
+    background-color:#0170b0;
+    width:100%;
+    z-index:2;
    
-  
 }
 
 
@@ -47,38 +86,44 @@
 }
 
 header {
-    background-image: url("pexels-quang-nguyen-vinh-222549-2649403\ \(1\).jpg");
+    background-image: url("backimg.jfif");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
-    height:100vh;
-    width:100%;
+   width:100%;
+   height:65rem;
+  
     }
-
+/* .wrapper{
+    position:fixed;
+    background-color:skyblue;
+    width:100%;
+} */
 .textpage { 
     text-align: center;
     color: white;
-    padding-top: 17rem;
-    index: 6px;
-
+    padding-top: 20rem;
+ 
 }
 .textpage button{
      padding:10px 20px;
      background-color:skyblue;
      color:white;
      border-radius:5px;
+     transition:all 1s linear;
+
 }
 .textpage button:hover{
     background-color:white;
     color:black;
 }
 .textpage p {
-    font-size: 22px;
-    margin: 20px 0;
+  
+   margin-bottom:1rem;
 }
 
 .textpage h1 {
-    font-size: 50px;
+    font-size: 57px;
 }
 
 .wrapper2 {
@@ -90,25 +135,28 @@ header {
 }
 
 .page2 {
-    width: 500px;
+    width: 357px;
 }
 
 .imgpage2 {
-    width: 50%;
+    width: 60%;
     /* height: 500px; */
     overflow: hidden;
     border-radius: 4px;
+    z-index:1;
+   
 }
 
 .imgpage2 img:hover {
-    transition: all ease-in-out 500ms;
-    /* transition: all ease-in-out; */
+   
+    transition: all   1000ms  ease-in-out ;
     transform: scale(1.1);
 }
 
 
 .imgpage2 img {
     width: 100%;
+
 
 
 }
@@ -136,7 +184,7 @@ header {
 }
 
 .iconimg {
-    width: 70px;
+    width: 100px;
 
     position: relative;
 }
@@ -147,13 +195,19 @@ header {
 
 
 }
+.enviourment p{
+    margin-top: 0.3rem;
+  font-size: 14px;
+  color:rgba(81, 79, 79, 0.5);
+}
 
 .iconimg i {
     position: absolute;
-    left: 26px;
-    top: 25px;
+    left: 41px;
+    top: 41px;
     color: white;
-
+    height:30px;
+    width:30px;
 }
 
 .enviourment {
@@ -177,11 +231,12 @@ header {
 
 .package {
     width: 300px;
-    height: 440px;
+    
     border: 1px solid rgba(81, 79, 79, 0.5);
     border-radius: 5px;
     text-align: center;
 }
+
 
 .package button {
     background-color: darkblue;
@@ -191,6 +246,10 @@ header {
     border-radius: 4px;
     padding: 5px 20px;
     border: none;
+    position: absolute;
+  bottom: -18px;
+  right: 102px;
+  transition: all 1s linear;
 }
 
 .package button:hover {
@@ -208,6 +267,7 @@ header {
 
 .package1para {
     padding: 1rem;
+    position:relative;
 }
 
 .package1 button {
@@ -218,6 +278,10 @@ header {
     border-radius: 4px;
     padding: 5px 20px;
     border: none;
+    position:absolute;
+    bottom: -18px;
+    right: 102px;
+    transition: all 1s linear;
 }
 
 .wrapper4 {
@@ -523,25 +587,46 @@ color:aqua;
     justify-content:center;
     margin:2rem 0  3rem 0;
 }
-.hoverimg{
+.transblack{
     width:300px;
     height:200px;
+    position:relative;
+    background-color:black;
+    padding:5rem;
    
-  
+
+   
+}
+ .transblack img{
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+     
+    opacity: 1;
+
  }
-.hover{
+ .transblack img:hover{
+        opacity:0.4;
+        transition:all 1s linear;
+ }
+.transimg{
     display:flex;
     align-items:center;
     justify-content: center;
-    position:relative;
+     
     /* margin:3rem 0 0 0; */
 }
-.hoverimg img{
-    width:100%;
-    height:100%;
-   
-   }
+
 .center1 ul li:first-child{
     background-color:aqua;
     color:#fff;
 }
+.transblack h4{
+         color:white;
+         text-align:center;
+         width:100%;
+         margin:auto;
+} 
+
+
