@@ -89,7 +89,7 @@
     margin: 0.5rem 0 0.5rem;
 }
 header {
-    background-image: url("backimg.jfif");
+    background-image: url("img/backimg.jfif");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
@@ -630,7 +630,7 @@ color:aqua;
     position:relative;
     background-color:black;
     padding:5rem;
-   
+   overflow: hidden;
 
    
 }
@@ -646,6 +646,7 @@ color:aqua;
  .transblack img:hover{
         opacity:0.4;
         transition:all 0.4s ease-in-out;
+        transform: scale(1.2);
  }
 .transimg{
     display:flex;
