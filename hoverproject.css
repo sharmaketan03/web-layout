@@ -350,9 +350,10 @@ text-transform: capitalize;
 
 .wrapper5 {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /* justify-content: space-between; */
+    
     /* margin:0 4rem; */
+    gap:2rem;
 
 
 
@@ -362,8 +363,9 @@ text-transform: capitalize;
     background-color:#fdf3f3;
 }
 .head1 {
-    width: 25%;
-    margin-right: 11rem;
+    width: 35%;
+    margin:0 3rem;
+   
 
 }
 
@@ -409,7 +411,7 @@ text-transform: capitalize;
     display: inline-block;
     width: 40px;
     height: 40px;
-
+    margin-right:0.3rem;
     border-radius: 50%;
     text-align: center;
     align-content: center;
@@ -444,22 +446,22 @@ color:aqua;
 }
 .icon3{
     display:flex;
-    align-items:center;
+    
     justify-content:space-between;
     /* margin:0 4rem; */
 }
 
 .halfimg1{
     width:50%;
-    /* margin-right:4rem; */
+    
 
 }
 .halfimg1 img{
     width:100%;
 }
 .class{
-    width:39%;
-    margin-left:2rem;
+    width:43%;
+    margin:1rem 0 0 2rem;
 }
 .i3perct{
     width:400px;
@@ -702,6 +704,7 @@ color:aqua;
     display:flex;
     align-items:center;
     justify-content: center;
+    margin-bottom: 6rem;
 }
 .consult1{
     margin:0 3rem;
@@ -749,4 +752,176 @@ color:aqua;
 .last img:hover{
     display:none;
 }
+ .numberimg1{
+    width: 43%;
+    height: 340px;
+   
+} 
+.numberimg1 img{
+    width:100%;
+    height:100%;
+}
+.numberpara{
+    text-transform: capitalize;
+   justify-content: center;
+    margin-left:4rem;
+    width:45%;
+   
+    }
+.wrapper10{
+    display:flex;
+     justify-content:space-between;
+    margin:6rem 4rem;
+   width:90%;
+}
+.mainnumber{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+   
+    margin: 1.5rem 0;
+}
+.mainpara3{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    
+}
+.mainpara1{
+    color:skyblue;
+}
+.mainpara1+h2{
+   
+    margin:0.5rem 0;
+}
+.mainpara2,ul{
+    font-size:13px;
+    color:rgba(81, 79, 79, 0.5) ;
+    margin:0.9rem 0;
+   
+}
 
+.numberpara ul li::marker{
+    color:skyblue;
+    font-size:15px;
+    /* margin-left:0px; */
+}
+
+.mainpara3 h1{
+    margin-right:0.5rem;
+    font-size:32px;
+    color:skyblue;
+}
+.mainpara3 p{
+    justify-content: center;
+    font-weight: 300;
+   
+}
+
+.wrapper11{
+    background-color:#d3dadc;
+    display:flex;
+   padding:4rem 4rem;
+  
+   justify-content: space-between;
+   width:100%;
+
+}
+.last2page{
+    width:45%;
+}
+.form1{
+    width:35%;
+}
+.form1 input{
+    width:450px;
+    margin:0 0 0.7rem;
+    padding:0.5rem;
+    border-radius:4px;
+    border:none;
+}
+.form1 textarea,.form1 button{
+    width:450px;
+    margin:0.7rem 0;
+    padding:0.5rem;
+    border-radius:4px;
+    border:none;
+}
+.setcheck span{
+    font-size:14px;
+}
+.setcheck input{
+    width:18px;
+}
+.under1{
+    text-decoration: underline;
+}
+.mainpara5{
+    text-transform: uppercase;
+    color:rgb(10, 173, 237);
+}
+.last2page{
+    text-transform: capitalize;
+    justify-content: center;
+  
+}
+.last2page h2~p{
+    font-size:14px;
+    margin:0.9rem 0;
+}
+.last2page i{
+    color:rgb(6, 175, 242);
+    margin-right:0.3rem;
+}
+.last2page p span{
+    margin-right:0.9rem;
+}
+.lastpageimg{
+    width:50px;
+    height:50px;
+}
+.lastpageimg img{
+    width:100%;
+    margin-right:0.7rem;
+}
+.last2pageflex{
+    display:flex;
+    margin:1rem  0;
+    align-items:center;
+    /* justify-content: space-evenly; */
+}
+.last2pagebox{
+    position:relative;
+}
+.last2pagebox i{
+    position:absolute;
+    top: 16px;
+  left: 17px;
+  color:white;
+}
+.lastpageimg img:hover{
+     display:none;
+}
+.wrapper12{
+    background-color:skyblue;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:4rem 4rem;
+}
+.frstbox ul li{
+  list-style-type: none;
+  /* margin-top:0.1rem; */
+  font-weight:500;
+}
+.frstbox ul li a{
+    /* text-decoration: none; */
+    color:rgb(7, 7, 7);
+}
+.frstbox1 p{
+    width:450px;
+    font-size:13px;
+}
+.lastline{
+    text-align: center;
+}
