@@ -240,7 +240,7 @@ text-transform: capitalize;
 
 .package {
     width: 300px;
-    height:382px;
+    height: 404px;
     border: 1px solid rgba(81, 79, 79, 0.5);
     border-radius: 5px;
     text-align: center;
@@ -319,7 +319,7 @@ text-transform: capitalize;
 }
 
 #package_height {
-  height:410px;
+    height: 430px;
 
 }
 
@@ -423,7 +423,8 @@ text-transform: capitalize;
 .head1 ul p {
     font-size: 14px;
     color: rgba(81, 79, 79, 0.5);
-    text-align: center;
+   margin-left:3rem;
+
 }
 
 #one {
@@ -639,13 +640,13 @@ color:aqua;
     position:absolute;
     top:0;
     left:0;
-     
+    transition:all 0.4s ease-in-out;
     opacity: 1;
 
  }
  .transblack img:hover{
         opacity:0.4;
-        transition:all 0.4s ease-in-out;
+       
         transform: scale(1.2);
  }
 .transimg{
@@ -733,6 +734,7 @@ color:aqua;
 .last3i img{
     width:100%;
     height:100%;
+    transition: all 0.3s ease-in-out;
 
 }
 .last{
@@ -883,7 +885,7 @@ color:aqua;
 }
 .lastpageimg img{
     width:100%;
-    margin-right:0.7rem;
+    transition: all 0.7s ease-in-out;
 }
 .last2pageflex{
     display:flex;
