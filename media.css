@@ -174,7 +174,23 @@
 }
 @media screen and (max-width:1060px){
       .home ul{
-        display:none;
+        padding:18px;
+      }
+      .home li{
+        margin:0 11px;
+      }
+      .textpage{
+        padding:13rem;
+      }
+      .textpage h1{
+        font-size:42px;
+
+      }
+      .textpage p{
+        font-size: 12px;;
+      }
+      header{
+        height:57rem;
       }
       .wrapper2{
         flex-direction: column-reverse;
@@ -186,13 +202,14 @@
   }
   .wrapper3{
     justify-content: space-around;
+    margin:2rem 15px;
   }
   .page2{
     width:90%;
     margin:1rem auto;
   }
   .package{
-    margin:1rem auto;
+    margin:1rem 0;
     justify-content: space-around;
   }
   .formsect{
@@ -204,10 +221,20 @@
 .logo{
   padding-top:1rem;
 }
+.wrapper4{
+  margin:2rem 15px;
+}
+.consult1{
+  margin:0 15px;
+  width:20%;
+}
 }
 @media screen and (max-width:1300px){
    .wrapper5{
     flex-direction: column;
+   }
+   .enviourment{
+    width:30%;
    }
    .halfimg,.head1,.halfimg1,.class{
     width:90%;
@@ -222,15 +249,32 @@
    .transblack img{
     height:100%;
    }
+   .wap1{
+    width:30%;
+   }
+   .wapimg{
+    margin:auto;
+   }
 }
-@media screen and (max-width:851px){
+@media screen and (max-width:861px){
   .wrapper11{
     flex-direction: column-reverse;
 
   }
+  .home #menu{
+    display: block;
+  }
+  .home ul{
+    display: none;
+  }
   .form1{
     width:90%;
   }
+  .consult1img{
+    width:100%;
+  }
+   
+
   .last2page{
     width:90%;
     margin-top:1rem;
@@ -267,13 +311,16 @@
   .lastpage{
     margin-top:1rem 0;
   }
-}
-@media screen and (max-width:650px){
-        .textpage h1{
-          font-size:45px;
+  .textpage h1{
+    font-size:20px;
 
-        }
-        .textpage p{
-          font-size: 13px;;
-        }
+  }
+  .textpage p{
+    font-size:7px;
+  }
+  header{
+    height:45%;
+  }
 }
+
+
