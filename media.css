@@ -1,325 +1,414 @@
-
-@media screen and (min-width:320px) and (max-width:570px){
-   .wrapper2{
+@media screen and (min-width:320px) and (max-width:570px) {
+  .wrapper2 {
     flex-direction: column-reverse;
-    margin:unset;
-    margin:0 15px;
-   }
-   .page2{
-    width:unset;
-   }
-   .imgpage2{
-    width:unset;
-    margin-top:2rem;
-   }
-   .page2 h1 {
-    font-size: 18px;
-  }
-  .wrapper3{
-    flex-direction: column;
     margin: unset;
-    margin:2rem 15px;
-  }
-  .enviourment {
-    width:unset;
-    margin:0 15px;
-  }
-
-  .center{
-    font-size:12px;
-
-  }
-  .wrapper4{
-    margin:2rem 15px;
-    
-  }
-  .package{
-    /* width:unset; */
-    margin:1rem auto;
-  }
-  .package1para ul li {
-    
-    margin-right:unset;
-  }
-  .wrapper5{
-    flex-direction: column;
-  }
-  .halfimg ,.halfimg1{
-    width:unset;
     margin: 0 15px;
   }
-  .head1{
-    margin:0 15px;
-    width:unset;
+
+  .page2 {
+    width: unset;
   }
-  .head1 h1{
+
+  .imgpage2 {
+    width: unset;
+    margin-top: 2rem;
+  }
+
+  .page2 h1 {
+    font-size: 18px;
+  }
+
+  .wrapper3 {
+    flex-direction: column;
+    margin: unset;
+    margin: 2rem 15px;
+  }
+
+  .enviourment {
+    width: unset;
+    margin: 0 15px;
+  }
+
+  .center {
+    font-size: 12px;
+
+  }
+
+  .wrapper4 {
+    margin: 2rem 15px;
+
+  }
+
+  .package {
+    /* width:unset; */
+    margin: 1rem auto;
+  }
+
+  .package1para ul li {
+
+    margin-right: unset;
+  }
+
+  .wrapper5 {
+    flex-direction: column;
+  }
+
+  .halfimg,
+  .halfimg1 {
+    width: unset;
+    margin: 0 15px;
+  }
+
+  .head1 {
+    margin: 0 15px;
+    width: unset;
+  }
+
+  .head1 h1 {
     font-size: 20px;
   }
-  .icon3{
+
+  .icon3 {
     flex-direction: column-reverse;
   }
-  .class{
+
+  .class {
     width: unset;
     margin: unset;
-    margin:0 15px;
+    margin: 0 15px;
   }
+
   .ispan {
     margin: 0 3rem 1rem 0;
-   
+
   }
-  .i{
-  flex-direction: column;
-  
+
+  .i {
+    flex-direction: column;
+
   }
+
   .i3perct {
     width: unset;
-    
+
   }
-  .percent{
-    width:unset;
-  }
-  .i3perct3{
-    width:unset;
-  }
-  .hed{
-    margin:2rem 15px;
-  }
-  .flex3{
-    margin:0 15px;
-  }
-  .wap1{
+
+  .percent {
     width: unset;
-    margin: 1rem 15px;;
   }
-  .wapimg{
-    margin:auto;
+
+  .i3perct3 {
+    width: unset;
   }
-  .wrapper7{
+
+  .hed {
+    margin: 2rem 15px;
+  }
+
+  .flex3 {
+    margin: 0 15px;
+  }
+
+  .wap1 {
+    width: unset;
+    margin: 1rem 15px;
+    ;
+  }
+
+  .wapimg {
+    margin: auto;
+  }
+
+  .wrapper7 {
     flex-direction: column;
-    margin-top:2rem;
-    padding:1rem 15px;
+    margin-top: 2rem;
+    padding: 1rem 15px;
   }
-  .formsect{
-    width:unset;
-   
+
+  .formsect {
+    width: unset;
+
   }
-  .forms{
-    width:unset;
+
+  .forms {
+    width: unset;
   }
-  .center1 ul{
+
+  .center1 ul {
     flex-direction: column;
-    margin:1rem 0;
+    margin: 1rem 0;
   }
-  .sent{
-    margin:2rem 15px;
-    width:unset;
+
+  .sent {
+    margin: 2rem 15px;
+    width: unset;
   }
-  .wrapper10{
-    margin:0;
+
+  .wrapper10 {
+    margin: 0;
     flex-direction: column;
-    width:unset;
+    width: unset;
   }
+
   .numberimg1 {
     width: unset;
     height: unset;
-    margin:0 15px;
+    margin: 0 15px;
   }
-  .numberpara{
-    width:unset;
-    padding:1rem  15px;
+
+  .numberpara {
+    width: unset;
+    padding: 1rem 15px;
   }
-  .wrapper11{
-    width:unset;
+
+  .wrapper11 {
+    width: unset;
     flex-direction: column-reverse;
-    padding:1rem;
+    padding: 1rem;
   }
-  .form1{
-    width:unset;
-  }
-  .last2page{
-    width:unset;
-    margin-top:1rem;
-  }
-  .wrapper12{
-    flex-direction: column;
-    padding:1rem;
-    justify-content: center;
-  }
-  .frstbox1 p{
+
+  .form1 {
     width: unset;
   }
-  header{
-    width:unset;
-    height:40rem;
+
+  .last2page {
+    width: unset;
+    margin-top: 1rem;
   }
- 
-  .textpage h1{
-    font-size:13px;
-    margin:0 15px;
+
+  .wrapper12 {
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
   }
-  .textpage p{
+
+  .frstbox1 p {
+    width: unset;
+  }
+
+  header {
+    width: unset;
+    height: 40rem;
+  }
+
+  .textpage h1 {
+    font-size: 13px;
+    margin: 0 15px;
+  }
+
+  .textpage p {
     font-size: 5px;
   }
-  .center1 ul li{
-    margin:0.5rem 0;
+
+  .center1 ul li {
+    margin: 0.5rem 0;
   }
-  .transblack{
-    margin:0.5rem 0;
+
+  .transblack {
+    margin: 0.5rem 0;
   }
-  .transblack img{
+
+  .transblack img {
     object-fit: cover;
-   
-  }
-}
-@media screen and (max-width:1060px){
-      .home ul{
-        padding:18px;
-      }
-      .home li{
-        margin:0 11px;
-      }
-      .textpage{
-        height: 100vh;
-        padding-top: 10rem;
-      }
-      .textpage h1{
-        font-size:42px;
 
-      }
-      .textpage p{
-        font-size: 12px;;
-      }
-      header{
-        height:57rem;
-      }
-      .wrapper2{
-        flex-direction: column-reverse;
-        margin:2rem 15px;
-      }
-  .imgpage2{
-    width:90%;
-    margin:3rem auto;
   }
-  .wrapper3{
+}
+
+@media screen and (max-width:1060px) {
+  .home ul {
+    padding: 18px;
+  }
+
+  .home li {
+    margin: 0 11px;
+  }
+
+  .textpage {
+    height: 100vh;
+    padding-top: 10rem;
+  }
+
+  .textpage h1 {
+    font-size: 42px;
+
+  }
+
+  .textpage p {
+    font-size: 12px;
+    ;
+  }
+
+  header {
+    height: 57rem;
+  }
+
+  .wrapper2 {
+    flex-direction: column-reverse;
+    margin: 2rem 15px;
+  }
+
+  .imgpage2 {
+    width: 90%;
+    margin: 3rem auto;
+  }
+
+  .wrapper3 {
     justify-content: space-around;
-    margin:2rem 15px;
+    margin: 2rem 15px;
   }
-  .page2{
-    width:90%;
-    margin:1rem auto;
+
+  .page2 {
+    width: 90%;
+    margin: 1rem auto;
   }
-  .package{
-    margin:1rem 0;
+
+  .package {
+    margin: 1rem 0;
     justify-content: space-around;
+    width: 30%;
+    height: 100%;
   }
-  .formsect{
-    width:50%;
+
+  .package button {
+    bottom: -5%;
+    left: 35%;
   }
-.last2page{
-  width:59%;
+
+  .formsect {
+    width: 50%;
+  }
+
+  .last2page {
+    width: 59%;
+  }
+
+  .logo {
+    padding-top: 1rem;
+  }
+
+  .wrapper4 {
+    margin: 2rem 15px;
+  }
+
+  .consult1 {
+    margin: 0 15px;
+    width: 34%;
+  }
 }
-.logo{
-  padding-top:1rem;
-}
-.wrapper4{
-  margin:2rem 15px;
-}
-.consult1{
-  margin:0 15px;
-  width:34%;
-}
-}
-@media screen and (max-width:1300px){
-   .wrapper5{
+
+@media screen and (max-width:1300px) {
+  .wrapper5 {
     flex-direction: column;
-   }
-   
-   .halfimg,.head1,.halfimg1,.class{
-    width:90%;
-    margin:auto;
-   }
-   .icon3{
+  }
+
+  .halfimg,
+  .head1,
+  .halfimg1,
+  .class {
+    width: 90%;
+    margin: auto;
+  }
+
+  .icon3 {
     flex-direction: column-reverse;
-   }
-   
-   .transblack img{
-    height:100%;
-   }
-   .wap1{
-    width:30%;
-   }
-   .wapimg{
-    margin:auto;
-   }
+  }
+
+  .transblack img {
+    height: 100%;
+  }
+
+  .wap1 {
+    width: 30%;
+  }
+
+  .wapimg {
+    margin: auto;
+  }
 }
-@media screen and (max-width:861px){
-  .wrapper11{
+
+@media screen and (max-width:861px) {
+  .wrapper11 {
     flex-direction: column-reverse;
 
   }
-  .home #menu{
+
+  .home #menu {
     display: block;
   }
-  .home ul{
+
+  .home ul {
     display: none;
   }
-  .form1{
-    width:90%;
+
+  .form1 {
+    width: 90%;
   }
-  .consult1img{
-    width:100%;
+
+  .consult1img {
+    width: 100%;
   }
-  .consult1img img{
+
+  .consult1img img {
     object-fit: cover;
   }
-   
 
-  .last2page{
-    width:90%;
-    margin-top:1rem;
+
+  .last2page {
+    width: 90%;
+    margin-top: 1rem;
   }
-  .wrapper7{
+
+  .wrapper7 {
     flex-direction: column;
-    padding:2rem 0;
+    padding: 2rem 0;
   }
-  .formsect{
-    width:90%;
+
+  .formsect {
+    width: 90%;
   }
-  .forms{
-    width:75%;
+
+  .forms {
+    width: 75%;
   }
-  .wrapper10{
+
+  .wrapper10 {
     flex-direction: column;
   }
-  .numberimg1{
-    width:90%;
-    height:unset;
+
+  .numberimg1 {
+    width: 90%;
+    height: unset;
   }
-  .numberpara{
-    margin:0;
-    margin-top:1rem ;
-    width:90%;
+
+  .numberpara {
+    margin: 0;
+    margin-top: 1rem;
+    width: 90%;
   }
-  .wrapper12{  
-   display: block;
-   
-  }
-  .frstbox{
-    margin:1rem 0;
-  }
-  .lastpage{
-    margin-top:1rem 0;
-  }
-  .textpage h1{
-    font-size:20px;
+
+  .wrapper12 {
+    display: block;
 
   }
-  .textpage p{
-    font-size:7px;
+
+  .frstbox {
+    margin: 1rem 0;
   }
-  header{
-    height:45%;
+
+  .lastpage {
+    margin-top: 1rem 0;
+  }
+
+  .textpage h1 {
+    font-size: 20px;
+
+  }
+
+  .textpage p {
+    font-size: 7px;
+  }
+
+  header {
+    height: 45%;
   }
 }
-
-
